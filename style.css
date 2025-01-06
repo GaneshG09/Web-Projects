@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+.sticky-header {
+  background-color: #333;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav {
+  max-width: 100%;
+  background-color: white;
+  color: black;
+  /* margin: 0;
+  padding: 0;
+  padding: 22px 12px; */
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: space-evenly;
+
+  border-radius: 0px;
+
+  box-shadow: 6px 4px 10px 1px rgb(230, 217, 217);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 4px;
+}
+nav ul li {
+  padding: 5px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: mediumslateblue;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  font-size: larger;
+}
+
+.container {
+  /* background-image: url(3.png);
+  background-position: left bottom, right top;
+  background-repeat: no-repeat, repeat; */
+
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+
+  width: 82vw;
+  height: 70vh;
+  border-radius: 7px;
+  padding-top: auto;
+  margin: auto;
+  margin-top: 32px;
+
+  gap: 10px;
+  /* border: 2px solid #333; */
+  box-shadow: 1px 8px 14px 1px gray;
+}
+
+.content {
+  width: 70%;
+}
+
+.content h1 {
+  text-align: left;
+  padding-top: 2;
+}
+.content h2 {
+  color: #3572a5;
+  text-align: left;
+  padding: 2px;
+}
+
+.content h3 {
+  color: rgb(86, 86, 206);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content p {
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 4px;
+}
+.image {
+  padding: 6px 15px;
+  /* border: 2px solid black; */
+}
+
+.image img {
+  border-radius: 8px;
+  width: 30vw;
+  height: 50vh;
+  float: left;
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* padding-top: 44px;
+  padding-right: 52px; */
+  padding: 0.2rem 0.8rem;
+  margin: 0.2rem;
+  gap: 12px;
+}
+
+.about {
+  max-width: 100%;
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 4fr;
+  justify-content: center;
+
+  /* border: 2px solid springgreen; */
+  text-align: center;
+
+  margin: 0;
+  margin-top: 12px;
+}
+.about span {
+  font-weight: 600;
+  font-size: 36px;
+  padding: 60px;
+}
+.about span h4 {
+  color: #522ba7;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  padding: 6px;
+}
+
+.about span p {
+  color: black;
+
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 54px;
+}
+
+.button {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(100, 196, 235);
+
+  color: #fff;
+}
+.text {
+  font-size: 16px;
+  text-decoration: none;
+}
+.text {
+  margin: 0 2.5em;
+}
+
+/* marquee{
+  color: black;
+/* background-image: url(boliviainteligente-iAFe6nhfy9Y-unsplash.jpg); */
+/* background-color: whitesmoke;
+ font-family: "Poppins", sans-serif;
+
+} */
+
+/* Skills Section */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 44px;
+}
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+  padding-top: 22px;
+}
+
+/* Skill Section */
+.skills-section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+}
+
+.skill {
+  margin: 1rem 0;
+}
+
+.skill h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 5px;
+  animation: fill-bar 2s ease-in-out;
+}
+
+/* Programming Languages */
+.html {
+  width: 90%;
+  background-color: #e44d26;
+}
+
+.css {
+  width: 85%;
+  background-color: #264de4;
+}
+
+.javascript {
+  width: 80%;
+  background-color: #f0db4f;
+}
+
+.python {
+  width: 75%;
+  background-color: #3572a5;
+}
+
+/* Frameworks */
+.react {
+  width: 85%;
+  background-color: #61dafb;
+}
+
+.node {
+  width: 80%;
+  background-color: #3c873a;
+}
+
+.bootstrap {
+  width: 70%;
+  background-color: #563d7c;
+}
+
+/* Databases */
+.mysql {
+  width: 80%;
+  background-color: #4479a1;
+}
+
+.mongodb {
+  width: 75%;
+  background-color: #4db33d;
+}
+
+.postgresql {
+  width: 70%;
+  background-color: #336791;
+}
+
+/* Animation */
+@keyframes fill-bar {
+  from {
+    width: 0;
+  }
+  to {
+    width: inherit;
+  }
+}
+
+/* education section */
+.education-section {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr;
+  justify-content: center;
+
+  gap: 3px;
+  color: white;
+  
+  margin: 12px 0px;
+}
+.sepration h1 {
+  color: black;
+}
+
+.education-card h2 {
+  color: black;
+}
+.education-card {
+
+  color: white;
+  background-color: rosybrown;
+  padding-top: 13px;
+  box-shadow: 2px 2px 13px;
+  text-align: center;
+  transition: transform 0.3s;
+  border-radius: 15px;
+  margin: 0;
+
+}
+
+.education-card:hover {
+  transform: scale(1.05);
+}
+
+.education-card2 {
+  background-color: #75a2c7;
+  color: white;
+
+  /* padding: 0.8rem; */
+  box-shadow: 2px 2px 13px;
+  text-align: center;
+  transition: transform 0.3s;
+  border-radius: 15px;
+}
+.education-card2:hover {
+  transform: scale(1.05);
+}
+.education-card3 {
+  background-color: rgb(104, 214, 214);
+  color: white;
+
+  /* padding: 0.8rem; */
+  box-shadow: 2px 2px 13px;
+  text-align: center;
+  transition: transform 0.3s;
+  border-radius: 15px;
+}
+.education-card3:hover {
+  transform: scale(1.05);
+}
+
+/* My Services Section */
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  gap: 12px;
+}
+
+.services-container h2 {
+  padding: 5px;
+}
+
+.service-box {
+  width: 27%;
+  background-color: white;
+  padding: 1.5rem;
+  margin: 8px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px black;
+  transition: transform 0.3s;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* contact me heading */
+h1 {
+  color: black;
+  margin-top: 32px;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+form label {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: whitesmoke;
+}
+
+form button {
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #61dafb;
+}
+/* Contact info */
+/* Contact Section */
+.contact-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+}
+
+/* Contact Info Grid  00000000000000000000000000*/
+.contact-info-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: center;
+  font-family:"Poppins", sans-serif;;
+}
+
+.contact-card {
+ 
+  border-radius: 10px 50px;
+  padding: 2rem;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  width: 300px;
+ 
+  background-image: url(3.png);
+ 
+}
+
+/* .contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+} */
+
+/*  */
+
+.contact-card h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card p {
+  font-size: 1rem;
+  color: black;
+  margin: 0;
+}
+.contact-card p:hover{
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.contact-card a:hover {
+  color: #0056b3 ;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+  background-image: url(boliviainteligente-iAFe6nhfy9Y-unsplash.jpg);
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container,
+  .services-container {
+    flex-direction: column;
+  }
+
+  .skill,
+  .service-box {
+    width: 80%;
+    margin: 1rem auto;
+  }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="new.css">
+    <script defer src="new.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <span><h1>Hello i'am </h1>
+            <h1>Ganesh</h1></span>
+            <img src="Ganesh.JPG" alt="" width="388px">
+            <h2>About Me</h2>
+           <p>I am an enthusiast for learning new technologies. I want to work as a part of a dynamic and progressive team, which could provide me with a learning atmosphere to enhance my skills so that I can contribute in the progress of the organization by applying my knowledge. As a fresher, i don't have any working experience. Along with this I also have interest in andriod development.</p>   
+            <!-- <p>Hello! I'm a full-stack developer specializing in web development with expertise in HTML, CSS, JavaScript, and more. I’m passionate about building high-quality websites.</p> -->
+            <div class="button-group">
+                <button id="hireMeButton">Hire Me</button>
+                <a href="Ganesh Resume1 (1).pdf" download><button>Download CV</button></a>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h1>My Skills</h1>
+            <div class="skills-container">
+                <div class="skill">
+                    <h2>HTML</h2>
+                    <div class="skill-bar">
+                        <div class="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h2>CSS</h2>
+                    <div class="skill-bar">
+                        <div class="css-bar"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h2>JavaScript</h2>
+                    <div class="skill-bar">
+                        <div class="js-bar"></div>
+                    </div>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <h1>My Services</h1>
+            <div class="services-container">
+                <div class="service-box">
+                    <h2>Web Development</h2>
+                    <p>Building modern, responsive, and optimized websites.</p>
+                </div>
+                <div class="service-box">
+                    <h2>UI/UX Design</h2>
+                    <p>Designing intuitive and user-friendly interfaces.</p>
+                </div>
+                <div class="service-box">
+                    <h2>SEO Optimization</h2>
+                    <p>Improving your website’s visibility on search engines.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h1>Contact Me</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
